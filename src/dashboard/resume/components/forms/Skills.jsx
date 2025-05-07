@@ -34,7 +34,7 @@ function Skills() {
     const AddNewSkills=()=>{
         setSkillsList([...skillsList,{
             name:'',
-        rating:0 
+        rating: 0 
         }])
     }
     const RemoveSkills=()=>{
