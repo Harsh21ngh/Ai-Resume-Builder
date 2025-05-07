@@ -3,7 +3,7 @@ import axios from 'axios';
 const API_KEY = import.meta.env.VITE_STARPI_API_KEY;
 
 const axiosClient = axios.create({
-    baseURL: import.meta.env.VITE_BASE_URL+"/api/",
+    baseURL: import.meta.env.VITE_BASE_URL+"api/",
     headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${API_KEY}`
